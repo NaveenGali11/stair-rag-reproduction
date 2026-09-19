@@ -1,0 +1,10 @@
+# Downloaded source corpora
+data/raw/
+
+# Local Python environments and cache
+.venv/
+__pycache__/
+*.py[cod]
+
+# Large model artifacts
+checkpoints/
