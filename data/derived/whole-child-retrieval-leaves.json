@@ -1,0 +1,1810 @@
+[
+  {
+    "id": "whole-child-009",
+    "level": 3,
+    "title": "Periods of Development",
+    "page": 17,
+    "parent_id": "whole-child-008",
+    "path": [
+      "Chapter One: Perspectives on Early Childhood",
+      "Childhood Defined",
+      "Periods of Development"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-010",
+    "level": 3,
+    "title": "Domains of Development",
+    "page": 17,
+    "parent_id": "whole-child-008",
+    "path": [
+      "Chapter One: Perspectives on Early Childhood",
+      "Childhood Defined",
+      "Domains of Development"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-012",
+    "level": 3,
+    "title": "History of Childhood",
+    "page": 19,
+    "parent_id": "whole-child-011",
+    "path": [
+      "Chapter One: Perspectives on Early Childhood",
+      "Historical Perspectives",
+      "History of Childhood"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-013",
+    "level": 3,
+    "title": "Emerging Themes",
+    "page": 21,
+    "parent_id": "whole-child-011",
+    "path": [
+      "Chapter One: Perspectives on Early Childhood",
+      "Historical Perspectives",
+      "Emerging Themes"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-014",
+    "level": 2,
+    "title": "Cultural Perspectives",
+    "page": 25,
+    "parent_id": "whole-child-007",
+    "path": [
+      "Chapter One: Perspectives on Early Childhood",
+      "Cultural Perspectives"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-016",
+    "level": 3,
+    "title": "How do these previously discussed perspectives shape the way we raise and educate children?",
+    "page": 28,
+    "parent_id": "whole-child-015",
+    "path": [
+      "Chapter One: Perspectives on Early Childhood",
+      "Developmentally Appropriate Practice",
+      "How do these previously discussed perspectives shape the way we raise and educate children?"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-017",
+    "level": 2,
+    "title": "How is Child Development Studied?",
+    "page": 29,
+    "parent_id": "whole-child-007",
+    "path": [
+      "Chapter One: Perspectives on Early Childhood",
+      "How is Child Development Studied?"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-019",
+    "level": 2,
+    "title": "Theories of Development",
+    "page": 33,
+    "parent_id": "whole-child-018",
+    "path": [
+      "Chapter Two: Theorists and Theories of Development",
+      "Theories of Development"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-021",
+    "level": 3,
+    "title": "Trust vs. Mistrust (Infancy)",
+    "page": 35,
+    "parent_id": "whole-child-020",
+    "path": [
+      "Chapter Two: Theorists and Theories of Development",
+      "Psychosocial Theory",
+      "Trust vs. Mistrust (Infancy)"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-022",
+    "level": 3,
+    "title": "Autonomy vs. Shame/Doubt (Toddlerhood)",
+    "page": 35,
+    "parent_id": "whole-child-020",
+    "path": [
+      "Chapter Two: Theorists and Theories of Development",
+      "Psychosocial Theory",
+      "Autonomy vs. Shame/Doubt (Toddlerhood)"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-023",
+    "level": 3,
+    "title": "Initiative vs. Guilt (Preschool Years)",
+    "page": 35,
+    "parent_id": "whole-child-020",
+    "path": [
+      "Chapter Two: Theorists and Theories of Development",
+      "Psychosocial Theory",
+      "Initiative vs. Guilt (Preschool Years)"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-024",
+    "level": 3,
+    "title": "Industry vs. Inferiority (Elementary Years)",
+    "page": 36,
+    "parent_id": "whole-child-020",
+    "path": [
+      "Chapter Two: Theorists and Theories of Development",
+      "Psychosocial Theory",
+      "Industry vs. Inferiority (Elementary Years)"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-025",
+    "level": 3,
+    "title": "Identity vs. Role-Confusion (Adolescence)",
+    "page": 36,
+    "parent_id": "whole-child-020",
+    "path": [
+      "Chapter Two: Theorists and Theories of Development",
+      "Psychosocial Theory",
+      "Identity vs. Role-Confusion (Adolescence)"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-026",
+    "level": 3,
+    "title": "Intimacy vs. Isolation (Early Adulthood)",
+    "page": 36,
+    "parent_id": "whole-child-020",
+    "path": [
+      "Chapter Two: Theorists and Theories of Development",
+      "Psychosocial Theory",
+      "Intimacy vs. Isolation (Early Adulthood)"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-027",
+    "level": 3,
+    "title": "Generativity vs. Stagnation (Middle Adulthood)",
+    "page": 36,
+    "parent_id": "whole-child-020",
+    "path": [
+      "Chapter Two: Theorists and Theories of Development",
+      "Psychosocial Theory",
+      "Generativity vs. Stagnation (Middle Adulthood)"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-028",
+    "level": 3,
+    "title": "Integrity vs. Despair (Older Adulthood)",
+    "page": 37,
+    "parent_id": "whole-child-020",
+    "path": [
+      "Chapter Two: Theorists and Theories of Development",
+      "Psychosocial Theory",
+      "Integrity vs. Despair (Older Adulthood)"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-029",
+    "level": 3,
+    "title": "Criticism of Psychosocial Theory",
+    "page": 37,
+    "parent_id": "whole-child-020",
+    "path": [
+      "Chapter Two: Theorists and Theories of Development",
+      "Psychosocial Theory",
+      "Criticism of Psychosocial Theory"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-030",
+    "level": 3,
+    "title": "Educational Implications",
+    "page": 38,
+    "parent_id": "whole-child-020",
+    "path": [
+      "Chapter Two: Theorists and Theories of Development",
+      "Psychosocial Theory",
+      "Educational Implications"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-032",
+    "level": 3,
+    "title": "Criticisms of Behaviorism",
+    "page": 40,
+    "parent_id": "whole-child-031",
+    "path": [
+      "Chapter Two: Theorists and Theories of Development",
+      "Behaviorist Theory",
+      "Criticisms of Behaviorism"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-033",
+    "level": 3,
+    "title": "Educational Implications",
+    "page": 41,
+    "parent_id": "whole-child-031",
+    "path": [
+      "Chapter Two: Theorists and Theories of Development",
+      "Behaviorist Theory",
+      "Educational Implications"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-035",
+    "level": 3,
+    "title": "Criticism of Social Cognitive Theory",
+    "page": 43,
+    "parent_id": "whole-child-034",
+    "path": [
+      "Chapter Two: Theorists and Theories of Development",
+      "Social Cognitive Theory",
+      "Criticism of Social Cognitive Theory"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-036",
+    "level": 3,
+    "title": "Educational Implications of Social Cognitive Theory",
+    "page": 43,
+    "parent_id": "whole-child-034",
+    "path": [
+      "Chapter Two: Theorists and Theories of Development",
+      "Social Cognitive Theory",
+      "Educational Implications of Social Cognitive Theory"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-038",
+    "level": 3,
+    "title": "Sensorimotor Development",
+    "page": 45,
+    "parent_id": "whole-child-037",
+    "path": [
+      "Chapter Two: Theorists and Theories of Development",
+      "Cognitive Theory",
+      "Sensorimotor Development"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-039",
+    "level": 3,
+    "title": "Preoperational Development",
+    "page": 46,
+    "parent_id": "whole-child-037",
+    "path": [
+      "Chapter Two: Theorists and Theories of Development",
+      "Cognitive Theory",
+      "Preoperational Development"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-040",
+    "level": 3,
+    "title": "Concrete Operational Development",
+    "page": 46,
+    "parent_id": "whole-child-037",
+    "path": [
+      "Chapter Two: Theorists and Theories of Development",
+      "Cognitive Theory",
+      "Concrete Operational Development"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-041",
+    "level": 3,
+    "title": "Formal Operational Development",
+    "page": 47,
+    "parent_id": "whole-child-037",
+    "path": [
+      "Chapter Two: Theorists and Theories of Development",
+      "Cognitive Theory",
+      "Formal Operational Development"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-042",
+    "level": 3,
+    "title": "Criticisms of Piaget\u2019s Cognitive Development Theory",
+    "page": 47,
+    "parent_id": "whole-child-037",
+    "path": [
+      "Chapter Two: Theorists and Theories of Development",
+      "Cognitive Theory",
+      "Criticisms of Piaget\u2019s Cognitive Development Theory"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-043",
+    "level": 3,
+    "title": "Educational Implications",
+    "page": 47,
+    "parent_id": "whole-child-037",
+    "path": [
+      "Chapter Two: Theorists and Theories of Development",
+      "Cognitive Theory",
+      "Educational Implications"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-045",
+    "level": 3,
+    "title": "Criticisms of Sociocultural Theory",
+    "page": 49,
+    "parent_id": "whole-child-044",
+    "path": [
+      "Chapter Two: Theorists and Theories of Development",
+      "Sociocultural Theory",
+      "Criticisms of Sociocultural Theory"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-046",
+    "level": 3,
+    "title": "Educational Implications",
+    "page": 50,
+    "parent_id": "whole-child-044",
+    "path": [
+      "Chapter Two: Theorists and Theories of Development",
+      "Sociocultural Theory",
+      "Educational Implications"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-048",
+    "level": 3,
+    "title": "Educational Implications",
+    "page": 53,
+    "parent_id": "whole-child-047",
+    "path": [
+      "Chapter Two: Theorists and Theories of Development",
+      "Humanistic Theory",
+      "Educational Implications"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-049",
+    "level": 3,
+    "title": "Criticisms of Humanistic Theory",
+    "page": 53,
+    "parent_id": "whole-child-047",
+    "path": [
+      "Chapter Two: Theorists and Theories of Development",
+      "Humanistic Theory",
+      "Criticisms of Humanistic Theory"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-051",
+    "level": 3,
+    "title": "Educational Implications",
+    "page": 56,
+    "parent_id": "whole-child-050",
+    "path": [
+      "Chapter Two: Theorists and Theories of Development",
+      "Ecological Theory",
+      "Educational Implications"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-052",
+    "level": 3,
+    "title": "Criticisms of Educational Theory",
+    "page": 56,
+    "parent_id": "whole-child-050",
+    "path": [
+      "Chapter Two: Theorists and Theories of Development",
+      "Ecological Theory",
+      "Criticisms of Educational Theory"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-054",
+    "level": 3,
+    "title": "Theory of Multiple Intelligences",
+    "page": 58,
+    "parent_id": "whole-child-053",
+    "path": [
+      "Chapter Two: Theorists and Theories of Development",
+      "Other Contemporary Theories to Consider",
+      "Theory of Multiple Intelligences"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-055",
+    "level": 3,
+    "title": "The Nine Intelligences",
+    "page": 58,
+    "parent_id": "whole-child-053",
+    "path": [
+      "Chapter Two: Theorists and Theories of Development",
+      "Other Contemporary Theories to Consider",
+      "The Nine Intelligences"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-056",
+    "level": 3,
+    "title": "Bloom\u2019s Taxonomy",
+    "page": 60,
+    "parent_id": "whole-child-053",
+    "path": [
+      "Chapter Two: Theorists and Theories of Development",
+      "Other Contemporary Theories to Consider",
+      "Bloom\u2019s Taxonomy"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-057",
+    "level": 3,
+    "title": "Mindset Theory",
+    "page": 61,
+    "parent_id": "whole-child-053",
+    "path": [
+      "Chapter Two: Theorists and Theories of Development",
+      "Other Contemporary Theories to Consider",
+      "Mindset Theory"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-060",
+    "level": 3,
+    "title": "Nature versus Nurture",
+    "page": 65,
+    "parent_id": "whole-child-059",
+    "path": [
+      "Chapter Three: Domains in Development",
+      "Themes of Development",
+      "Nature versus Nurture"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-061",
+    "level": 3,
+    "title": "Continuity versus Discontinuity",
+    "page": 65,
+    "parent_id": "whole-child-059",
+    "path": [
+      "Chapter Three: Domains in Development",
+      "Themes of Development",
+      "Continuity versus Discontinuity"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-062",
+    "level": 3,
+    "title": "Universal versus Individual Development",
+    "page": 65,
+    "parent_id": "whole-child-059",
+    "path": [
+      "Chapter Three: Domains in Development",
+      "Themes of Development",
+      "Universal versus Individual Development"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-063",
+    "level": 3,
+    "title": "Development versus Growth",
+    "page": 66,
+    "parent_id": "whole-child-059",
+    "path": [
+      "Chapter Three: Domains in Development",
+      "Themes of Development",
+      "Development versus Growth"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-064",
+    "level": 2,
+    "title": "The Four Domains of Development",
+    "page": 67,
+    "parent_id": "whole-child-058",
+    "path": [
+      "Chapter Three: Domains in Development",
+      "The Four Domains of Development"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-066",
+    "level": 3,
+    "title": "Height and Weight",
+    "page": 68,
+    "parent_id": "whole-child-065",
+    "path": [
+      "Chapter Three: Domains in Development",
+      "Physical/Biological Development",
+      "Height and Weight"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-067",
+    "level": 3,
+    "title": "Gross and Fine Motor Skills",
+    "page": 69,
+    "parent_id": "whole-child-065",
+    "path": [
+      "Chapter Three: Domains in Development",
+      "Physical/Biological Development",
+      "Gross and Fine Motor Skills"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-068",
+    "level": 3,
+    "title": "Universals in Physical Development",
+    "page": 69,
+    "parent_id": "whole-child-065",
+    "path": [
+      "Chapter Three: Domains in Development",
+      "Physical/Biological Development",
+      "Universals in Physical Development"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-070",
+    "level": 3,
+    "title": "Memory",
+    "page": 71,
+    "parent_id": "whole-child-069",
+    "path": [
+      "Chapter Three: Domains in Development",
+      "Cognitive Development",
+      "Memory"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-071",
+    "level": 3,
+    "title": "Intelligence",
+    "page": 71,
+    "parent_id": "whole-child-069",
+    "path": [
+      "Chapter Three: Domains in Development",
+      "Cognitive Development",
+      "Intelligence"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-072",
+    "level": 3,
+    "title": "Language",
+    "page": 72,
+    "parent_id": "whole-child-069",
+    "path": [
+      "Chapter Three: Domains in Development",
+      "Cognitive Development",
+      "Language"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-073",
+    "level": 3,
+    "title": "An Interesting Example of Cognitive Development: Lying",
+    "page": 73,
+    "parent_id": "whole-child-069",
+    "path": [
+      "Chapter Three: Domains in Development",
+      "Cognitive Development",
+      "An Interesting Example of Cognitive Development: Lying"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-075",
+    "level": 3,
+    "title": "Friendship in Early Childhood",
+    "page": 75,
+    "parent_id": "whole-child-074",
+    "path": [
+      "Chapter Three: Domains in Development",
+      "Social Development",
+      "Friendship in Early Childhood"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-076",
+    "level": 3,
+    "title": "Theory of Mind",
+    "page": 76,
+    "parent_id": "whole-child-074",
+    "path": [
+      "Chapter Three: Domains in Development",
+      "Social Development",
+      "Theory of Mind"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-078",
+    "level": 3,
+    "title": "Self-Regulation",
+    "page": 78,
+    "parent_id": "whole-child-077",
+    "path": [
+      "Chapter Three: Domains in Development",
+      "Emotional Development",
+      "Self-Regulation"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-079",
+    "level": 3,
+    "title": "Emotional Development",
+    "page": 79,
+    "parent_id": "whole-child-077",
+    "path": [
+      "Chapter Three: Domains in Development",
+      "Emotional Development",
+      "Emotional Development"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-082",
+    "level": 3,
+    "title": "Brain Cells: Neurons",
+    "page": 83,
+    "parent_id": "whole-child-081",
+    "path": [
+      "Chapter Four: Brain Development from Conception to Age 8",
+      "Biology of the Brain",
+      "Brain Cells: Neurons"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-084",
+    "level": 3,
+    "title": "Spinal Cord",
+    "page": 87,
+    "parent_id": "whole-child-083",
+    "path": [
+      "Chapter Four: Brain Development from Conception to Age 8",
+      "The Main Structures of the Brain",
+      "Spinal Cord"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-085",
+    "level": 3,
+    "title": "Medulla Oblongata",
+    "page": 87,
+    "parent_id": "whole-child-083",
+    "path": [
+      "Chapter Four: Brain Development from Conception to Age 8",
+      "The Main Structures of the Brain",
+      "Medulla Oblongata"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-086",
+    "level": 3,
+    "title": "Cerebellum",
+    "page": 88,
+    "parent_id": "whole-child-083",
+    "path": [
+      "Chapter Four: Brain Development from Conception to Age 8",
+      "The Main Structures of the Brain",
+      "Cerebellum"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-087",
+    "level": 3,
+    "title": "Pons",
+    "page": 88,
+    "parent_id": "whole-child-083",
+    "path": [
+      "Chapter Four: Brain Development from Conception to Age 8",
+      "The Main Structures of the Brain",
+      "Pons"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-088",
+    "level": 3,
+    "title": "Midbrain",
+    "page": 88,
+    "parent_id": "whole-child-083",
+    "path": [
+      "Chapter Four: Brain Development from Conception to Age 8",
+      "The Main Structures of the Brain",
+      "Midbrain"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-089",
+    "level": 3,
+    "title": "Cerebrum",
+    "page": 88,
+    "parent_id": "whole-child-083",
+    "path": [
+      "Chapter Four: Brain Development from Conception to Age 8",
+      "The Main Structures of the Brain",
+      "Cerebrum"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-091",
+    "level": 3,
+    "title": "Occipital Lobe",
+    "page": 91,
+    "parent_id": "whole-child-090",
+    "path": [
+      "Chapter Four: Brain Development from Conception to Age 8",
+      "Cerebral Cortex",
+      "Occipital Lobe"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-092",
+    "level": 3,
+    "title": "Parietal Lobe",
+    "page": 91,
+    "parent_id": "whole-child-090",
+    "path": [
+      "Chapter Four: Brain Development from Conception to Age 8",
+      "Cerebral Cortex",
+      "Parietal Lobe"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-093",
+    "level": 3,
+    "title": "Temporal Lobe",
+    "page": 93,
+    "parent_id": "whole-child-090",
+    "path": [
+      "Chapter Four: Brain Development from Conception to Age 8",
+      "Cerebral Cortex",
+      "Temporal Lobe"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-094",
+    "level": 3,
+    "title": "Frontal Lobe",
+    "page": 94,
+    "parent_id": "whole-child-090",
+    "path": [
+      "Chapter Four: Brain Development from Conception to Age 8",
+      "Cerebral Cortex",
+      "Frontal Lobe"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-095",
+    "level": 2,
+    "title": "Brain Development During Gestation",
+    "page": 96,
+    "parent_id": "whole-child-080",
+    "path": [
+      "Chapter Four: Brain Development from Conception to Age 8",
+      "Brain Development During Gestation"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-096",
+    "level": 2,
+    "title": "Brain Development in Infants and Toddlers",
+    "page": 98,
+    "parent_id": "whole-child-080",
+    "path": [
+      "Chapter Four: Brain Development from Conception to Age 8",
+      "Brain Development in Infants and Toddlers"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-097",
+    "level": 2,
+    "title": "Brain Development in Preschool and School-Age Children",
+    "page": 99,
+    "parent_id": "whole-child-080",
+    "path": [
+      "Chapter Four: Brain Development from Conception to Age 8",
+      "Brain Development in Preschool and School-Age Children"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-099",
+    "level": 2,
+    "title": "The Role of Genetics",
+    "page": 103,
+    "parent_id": "whole-child-098",
+    "path": [
+      "Chapter Five: Prenatal Development and Birth",
+      "The Role of Genetics"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-101",
+    "level": 3,
+    "title": "Gene-Linked Abnormalities",
+    "page": 106,
+    "parent_id": "whole-child-100",
+    "path": [
+      "Chapter Five: Prenatal Development and Birth",
+      "Concerns in Conception",
+      "Gene-Linked Abnormalities"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-102",
+    "level": 3,
+    "title": "Prenatal Testing for Genetic Abnormalities",
+    "page": 106,
+    "parent_id": "whole-child-100",
+    "path": [
+      "Chapter Five: Prenatal Development and Birth",
+      "Concerns in Conception",
+      "Prenatal Testing for Genetic Abnormalities"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-103",
+    "level": 3,
+    "title": "Other Concerns",
+    "page": 107,
+    "parent_id": "whole-child-100",
+    "path": [
+      "Chapter Five: Prenatal Development and Birth",
+      "Concerns in Conception",
+      "Other Concerns"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-104",
+    "level": 2,
+    "title": "The Germinal Period",
+    "page": 108,
+    "parent_id": "whole-child-098",
+    "path": [
+      "Chapter Five: Prenatal Development and Birth",
+      "The Germinal Period"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-106",
+    "level": 3,
+    "title": "Risk Factors",
+    "page": 111,
+    "parent_id": "whole-child-105",
+    "path": [
+      "Chapter Five: Prenatal Development and Birth",
+      "Pregnancy Concerns",
+      "Risk Factors"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-107",
+    "level": 3,
+    "title": "Environmental Hazards",
+    "page": 112,
+    "parent_id": "whole-child-105",
+    "path": [
+      "Chapter Five: Prenatal Development and Birth",
+      "Pregnancy Concerns",
+      "Environmental Hazards"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-108",
+    "level": 3,
+    "title": "Medical Conditions",
+    "page": 112,
+    "parent_id": "whole-child-105",
+    "path": [
+      "Chapter Five: Prenatal Development and Birth",
+      "Pregnancy Concerns",
+      "Medical Conditions"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-109",
+    "level": 3,
+    "title": "Other Concerns",
+    "page": 113,
+    "parent_id": "whole-child-105",
+    "path": [
+      "Chapter Five: Prenatal Development and Birth",
+      "Pregnancy Concerns",
+      "Other Concerns"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-110",
+    "level": 2,
+    "title": "Birth",
+    "page": 114,
+    "parent_id": "whole-child-098",
+    "path": [
+      "Chapter Five: Prenatal Development and Birth",
+      "Birth"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-111",
+    "level": 2,
+    "title": "After Birth",
+    "page": 115,
+    "parent_id": "whole-child-098",
+    "path": [
+      "Chapter Five: Prenatal Development and Birth",
+      "After Birth"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-114",
+    "level": 3,
+    "title": "Infant Gross Motor Skills",
+    "page": 121,
+    "parent_id": "whole-child-113",
+    "path": [
+      "Chapter Six: Infancy",
+      "Physical Development in Infancy",
+      "Infant Gross Motor Skills"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-115",
+    "level": 3,
+    "title": "Infant Fine Motor Skills",
+    "page": 122,
+    "parent_id": "whole-child-113",
+    "path": [
+      "Chapter Six: Infancy",
+      "Physical Development in Infancy",
+      "Infant Fine Motor Skills"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-117",
+    "level": 3,
+    "title": "Factors that Impact Cognitive Development",
+    "page": 124,
+    "parent_id": "whole-child-116",
+    "path": [
+      "Chapter Six: Infancy",
+      "Cognitive Development in Infancy",
+      "Factors that Impact Cognitive Development"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-118",
+    "level": 3,
+    "title": "Language",
+    "page": 125,
+    "parent_id": "whole-child-116",
+    "path": [
+      "Chapter Six: Infancy",
+      "Cognitive Development in Infancy",
+      "Language"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-119",
+    "level": 3,
+    "title": "Imitation",
+    "page": 131,
+    "parent_id": "whole-child-116",
+    "path": [
+      "Chapter Six: Infancy",
+      "Cognitive Development in Infancy",
+      "Imitation"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-120",
+    "level": 3,
+    "title": "Memory",
+    "page": 132,
+    "parent_id": "whole-child-116",
+    "path": [
+      "Chapter Six: Infancy",
+      "Cognitive Development in Infancy",
+      "Memory"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-121",
+    "level": 3,
+    "title": "Media Attributions",
+    "page": 132,
+    "parent_id": "whole-child-116",
+    "path": [
+      "Chapter Six: Infancy",
+      "Cognitive Development in Infancy",
+      "Media Attributions"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-122",
+    "level": 2,
+    "title": "Social and Emotional Development in Infancy",
+    "page": 133,
+    "parent_id": "whole-child-112",
+    "path": [
+      "Chapter Six: Infancy",
+      "Social and Emotional Development in Infancy"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-125",
+    "level": 3,
+    "title": "Bowel and Bladder Control",
+    "page": 137,
+    "parent_id": "whole-child-124",
+    "path": [
+      "Chapter Seven: Toddlers (15 Months to 3 Years)",
+      "Physical Development for Toddlers",
+      "Bowel and Bladder Control"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-126",
+    "level": 3,
+    "title": "Safety Concerns",
+    "page": 138,
+    "parent_id": "whole-child-124",
+    "path": [
+      "Chapter Seven: Toddlers (15 Months to 3 Years)",
+      "Physical Development for Toddlers",
+      "Safety Concerns"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-127",
+    "level": 3,
+    "title": "Car Seat Safety",
+    "page": 138,
+    "parent_id": "whole-child-124",
+    "path": [
+      "Chapter Seven: Toddlers (15 Months to 3 Years)",
+      "Physical Development for Toddlers",
+      "Car Seat Safety"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-128",
+    "level": 3,
+    "title": "Immunizations",
+    "page": 138,
+    "parent_id": "whole-child-124",
+    "path": [
+      "Chapter Seven: Toddlers (15 Months to 3 Years)",
+      "Physical Development for Toddlers",
+      "Immunizations"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-130",
+    "level": 3,
+    "title": "First Sentences: Language Development in Toddlerhood",
+    "page": 140,
+    "parent_id": "whole-child-129",
+    "path": [
+      "Chapter Seven: Toddlers (15 Months to 3 Years)",
+      "Cognitive Development for Toddlers",
+      "First Sentences: Language Development in Toddlerhood"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-132",
+    "level": 3,
+    "title": "Biting",
+    "page": 141,
+    "parent_id": "whole-child-131",
+    "path": [
+      "Chapter Seven: Toddlers (15 Months to 3 Years)",
+      "Social and Emotional Development for Toddlers",
+      "Biting"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-133",
+    "level": 3,
+    "title": "Hitting/Scratching and Temper Tantrums",
+    "page": 141,
+    "parent_id": "whole-child-131",
+    "path": [
+      "Chapter Seven: Toddlers (15 Months to 3 Years)",
+      "Social and Emotional Development for Toddlers",
+      "Hitting/Scratching and Temper Tantrums"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-134",
+    "level": 3,
+    "title": "Toddler Property Laws Author Unknown",
+    "page": 142,
+    "parent_id": "whole-child-131",
+    "path": [
+      "Chapter Seven: Toddlers (15 Months to 3 Years)",
+      "Social and Emotional Development for Toddlers",
+      "Toddler Property Laws Author Unknown"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-135",
+    "level": 3,
+    "title": "2-3 Year Milestones",
+    "page": 143,
+    "parent_id": "whole-child-131",
+    "path": [
+      "Chapter Seven: Toddlers (15 Months to 3 Years)",
+      "Social and Emotional Development for Toddlers",
+      "2-3 Year Milestones"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-138",
+    "level": 3,
+    "title": "Growth in Height and Weight",
+    "page": 147,
+    "parent_id": "whole-child-137",
+    "path": [
+      "Chapter Eight: Early Childhood Development",
+      "Physical Development in Early Childhood",
+      "Growth in Height and Weight"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-139",
+    "level": 3,
+    "title": "Brain Development",
+    "page": 147,
+    "parent_id": "whole-child-137",
+    "path": [
+      "Chapter Eight: Early Childhood Development",
+      "Physical Development in Early Childhood",
+      "Brain Development"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-140",
+    "level": 3,
+    "title": "Signs of Vision Problems",
+    "page": 147,
+    "parent_id": "whole-child-137",
+    "path": [
+      "Chapter Eight: Early Childhood Development",
+      "Physical Development in Early Childhood",
+      "Signs of Vision Problems"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-141",
+    "level": 3,
+    "title": "Gross Motor Skills",
+    "page": 148,
+    "parent_id": "whole-child-137",
+    "path": [
+      "Chapter Eight: Early Childhood Development",
+      "Physical Development in Early Childhood",
+      "Gross Motor Skills"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-142",
+    "level": 3,
+    "title": "Fine Motor Skills",
+    "page": 148,
+    "parent_id": "whole-child-137",
+    "path": [
+      "Chapter Eight: Early Childhood Development",
+      "Physical Development in Early Childhood",
+      "Fine Motor Skills"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-143",
+    "level": 3,
+    "title": "Young Children\u2019s Artistic Drawings",
+    "page": 149,
+    "parent_id": "whole-child-137",
+    "path": [
+      "Chapter Eight: Early Childhood Development",
+      "Physical Development in Early Childhood",
+      "Young Children\u2019s Artistic Drawings"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-144",
+    "level": 3,
+    "title": "Handedness",
+    "page": 151,
+    "parent_id": "whole-child-137",
+    "path": [
+      "Chapter Eight: Early Childhood Development",
+      "Physical Development in Early Childhood",
+      "Handedness"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-145",
+    "level": 3,
+    "title": "Sleep and Sleep Problems",
+    "page": 151,
+    "parent_id": "whole-child-137",
+    "path": [
+      "Chapter Eight: Early Childhood Development",
+      "Physical Development in Early Childhood",
+      "Sleep and Sleep Problems"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-146",
+    "level": 3,
+    "title": "Nutrition",
+    "page": 151,
+    "parent_id": "whole-child-137",
+    "path": [
+      "Chapter Eight: Early Childhood Development",
+      "Physical Development in Early Childhood",
+      "Nutrition"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-147",
+    "level": 3,
+    "title": "Accident Prevention",
+    "page": 152,
+    "parent_id": "whole-child-137",
+    "path": [
+      "Chapter Eight: Early Childhood Development",
+      "Physical Development in Early Childhood",
+      "Accident Prevention"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-149",
+    "level": 3,
+    "title": "Vygotsky\u2019s Theory of Development",
+    "page": 154,
+    "parent_id": "whole-child-148",
+    "path": [
+      "Chapter Eight: Early Childhood Development",
+      "Cognitive Development in Early Childhood",
+      "Vygotsky\u2019s Theory of Development"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-150",
+    "level": 3,
+    "title": "Vygotsky vs. Piaget",
+    "page": 155,
+    "parent_id": "whole-child-148",
+    "path": [
+      "Chapter Eight: Early Childhood Development",
+      "Cognitive Development in Early Childhood",
+      "Vygotsky vs. Piaget"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-151",
+    "level": 3,
+    "title": "Literacy in Early Childhood Education",
+    "page": 155,
+    "parent_id": "whole-child-148",
+    "path": [
+      "Chapter Eight: Early Childhood Development",
+      "Cognitive Development in Early Childhood",
+      "Literacy in Early Childhood Education"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-152",
+    "level": 3,
+    "title": "Nourishing the Young Child\u2019s Cognitive Development",
+    "page": 155,
+    "parent_id": "whole-child-148",
+    "path": [
+      "Chapter Eight: Early Childhood Development",
+      "Cognitive Development in Early Childhood",
+      "Nourishing the Young Child\u2019s Cognitive Development"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-154",
+    "level": 3,
+    "title": "Emotional Development",
+    "page": 157,
+    "parent_id": "whole-child-153",
+    "path": [
+      "Chapter Eight: Early Childhood Development",
+      "Social and Emotional Development in Preschool",
+      "Emotional Development"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-155",
+    "level": 3,
+    "title": "Moral Development",
+    "page": 157,
+    "parent_id": "whole-child-153",
+    "path": [
+      "Chapter Eight: Early Childhood Development",
+      "Social and Emotional Development in Preschool",
+      "Moral Development"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-156",
+    "level": 3,
+    "title": "Gender",
+    "page": 158,
+    "parent_id": "whole-child-153",
+    "path": [
+      "Chapter Eight: Early Childhood Development",
+      "Social and Emotional Development in Preschool",
+      "Gender"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-157",
+    "level": 3,
+    "title": "Peer Influence",
+    "page": 158,
+    "parent_id": "whole-child-153",
+    "path": [
+      "Chapter Eight: Early Childhood Development",
+      "Social and Emotional Development in Preschool",
+      "Peer Influence"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-158",
+    "level": 3,
+    "title": "Teacher Influence",
+    "page": 159,
+    "parent_id": "whole-child-153",
+    "path": [
+      "Chapter Eight: Early Childhood Development",
+      "Social and Emotional Development in Preschool",
+      "Teacher Influence"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-159",
+    "level": 3,
+    "title": "School and Media Influences",
+    "page": 159,
+    "parent_id": "whole-child-153",
+    "path": [
+      "Chapter Eight: Early Childhood Development",
+      "Social and Emotional Development in Preschool",
+      "School and Media Influences"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-160",
+    "level": 3,
+    "title": "Child Abuse",
+    "page": 159,
+    "parent_id": "whole-child-153",
+    "path": [
+      "Chapter Eight: Early Childhood Development",
+      "Social and Emotional Development in Preschool",
+      "Child Abuse"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-161",
+    "level": 3,
+    "title": "Importance of Play",
+    "page": 159,
+    "parent_id": "whole-child-153",
+    "path": [
+      "Chapter Eight: Early Childhood Development",
+      "Social and Emotional Development in Preschool",
+      "Importance of Play"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-162",
+    "level": 3,
+    "title": "Social Development in Preschool: Friendship",
+    "page": 160,
+    "parent_id": "whole-child-153",
+    "path": [
+      "Chapter Eight: Early Childhood Development",
+      "Social and Emotional Development in Preschool",
+      "Social Development in Preschool: Friendship"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-165",
+    "level": 3,
+    "title": "Overall Physical Growth",
+    "page": 163,
+    "parent_id": "whole-child-164",
+    "path": [
+      "Chapter Nine: School Age (5 Years to 8 Years)",
+      "Physical Development in School Age",
+      "Overall Physical Growth"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-166",
+    "level": 3,
+    "title": "Brain Growth",
+    "page": 163,
+    "parent_id": "whole-child-164",
+    "path": [
+      "Chapter Nine: School Age (5 Years to 8 Years)",
+      "Physical Development in School Age",
+      "Brain Growth"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-167",
+    "level": 3,
+    "title": "Sports",
+    "page": 163,
+    "parent_id": "whole-child-164",
+    "path": [
+      "Chapter Nine: School Age (5 Years to 8 Years)",
+      "Physical Development in School Age",
+      "Sports"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-169",
+    "level": 3,
+    "title": "Cognitive Growth",
+    "page": 165,
+    "parent_id": "whole-child-168",
+    "path": [
+      "Chapter Nine: School Age (5 Years to 8 Years)",
+      "Cognitive Development in School Age",
+      "Cognitive Growth"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-170",
+    "level": 3,
+    "title": "7-8 Year Olds",
+    "page": 165,
+    "parent_id": "whole-child-168",
+    "path": [
+      "Chapter Nine: School Age (5 Years to 8 Years)",
+      "Cognitive Development in School Age",
+      "7-8 Year Olds"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-171",
+    "level": 3,
+    "title": "The Emergence of Concrete Operational Thought",
+    "page": 165,
+    "parent_id": "whole-child-168",
+    "path": [
+      "Chapter Nine: School Age (5 Years to 8 Years)",
+      "Cognitive Development in School Age",
+      "The Emergence of Concrete Operational Thought"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-172",
+    "level": 3,
+    "title": "Inductive Reasoning",
+    "page": 166,
+    "parent_id": "whole-child-168",
+    "path": [
+      "Chapter Nine: School Age (5 Years to 8 Years)",
+      "Cognitive Development in School Age",
+      "Inductive Reasoning"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-173",
+    "level": 3,
+    "title": "Language & Literacy Development",
+    "page": 166,
+    "parent_id": "whole-child-168",
+    "path": [
+      "Chapter Nine: School Age (5 Years to 8 Years)",
+      "Cognitive Development in School Age",
+      "Language & Literacy Development"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-174",
+    "level": 3,
+    "title": "Intelligence",
+    "page": 166,
+    "parent_id": "whole-child-168",
+    "path": [
+      "Chapter Nine: School Age (5 Years to 8 Years)",
+      "Cognitive Development in School Age",
+      "Intelligence"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-175",
+    "level": 3,
+    "title": "Gardner\u2019s Theory of Multiple Intelligences",
+    "page": 167,
+    "parent_id": "whole-child-168",
+    "path": [
+      "Chapter Nine: School Age (5 Years to 8 Years)",
+      "Cognitive Development in School Age",
+      "Gardner\u2019s Theory of Multiple Intelligences"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  },
+  {
+    "id": "whole-child-176",
+    "level": 3,
+    "title": "When Development Looks Atypical",
+    "page": 168,
+    "parent_id": "whole-child-168",
+    "path": [
+      "Chapter Nine: School Age (5 Years to 8 Years)",
+      "Cognitive Development in School Age",
+      "When Development Looks Atypical"
+    ],
+    "is_leaf": true,
+    "is_retrieval_leaf": true
+  }
+]
