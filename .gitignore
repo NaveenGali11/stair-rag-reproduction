@@ -10,5 +10,6 @@ __pycache__/
 checkpoints/
 
 .venv-nvembed/
+.venv-mixtral/
 
 artifacts/
