@@ -1,0 +1,7 @@
+# Create the environment with:
+# python -m venv --system-site-packages .venv-nvembed
+#
+# PyTorch 2.8.0 and CUDA support are inherited from SageMaker.
+transformers==4.42.4
+tokenizers==0.19.1
+einops==0.8.1
