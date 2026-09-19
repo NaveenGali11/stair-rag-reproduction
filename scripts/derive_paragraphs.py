@@ -43,9 +43,47 @@ def join_lines(lines: list[str]) -> str:
     return normalize(result)
 
 
+def heading_match_priority(block_text: str, title: str):
+    text = normalize(block_text)
+    text_key = text.casefold()
+    title_key = title.casefold()
+
+    lines = [
+        normalize(line)
+        for line in block_text.splitlines()
+        if normalize(line)
+    ]
+
+    is_running_footer = (
+        text_key.startswith(title_key)
+        and "|" in text
+    )
+
+    # Best case: the entire block is the heading.
+    if text_key == title_key:
+        return 0
+
+    # The heading is a distinct line inside a combined PDF block.
+    if any(line.casefold() == title_key for line in lines):
+        return 1
+
+    # Long uppercase chapter headings may wrap across multiple lines.
+    if title.upper() in text and not is_running_footer:
+        return 2
+
+    # Last resort: the running title/footer previously used.
+    if is_running_footer:
+        return 3
+
+    return None
+
+
 def locate_heading_blocks(document, nodes):
     page_blocks = {
-        page_index: document[page_index].get_text("blocks", sort=True)
+        page_index: document[page_index].get_text(
+            "blocks",
+            sort=True,
+        )
         for page_index in range(document.page_count)
     }
 
@@ -56,38 +94,50 @@ def locate_heading_blocks(document, nodes):
         page_index = node["page"] - 1
         blocks = page_blocks[page_index]
         title = normalize(node["title"])
+        body_left = (
+            document[page_index].rect.width
+            * (56.7 / 612.0)
+        )
+        ranked_candidates = []
 
-        exact = [
-            index
-            for index, block in enumerate(blocks)
-            if normalize(block[4]) == title
-            and (page_index, index) not in used_blocks
-        ]
+        for block_index, block in enumerate(blocks):
+            key = (page_index, block_index)
 
-        contained = [
-            index
-            for index, block in enumerate(blocks)
-            if normalize(block[4]).startswith(title)
-            and "|" in normalize(block[4])
-            and (page_index, index) not in used_blocks
-        ]
+            if key in used_blocks:
+                continue
 
-        candidates = exact or contained
+            priority = heading_match_priority(
+                block[4],
+                title,
+            )
 
-        if not candidates:
+            if priority is not None:
+                alignment_distance = abs(
+                    block[0] - body_left
+                )
+
+                ranked_candidates.append(
+                    (
+                        priority,
+                        alignment_distance,
+                        block_index,
+                    )
+                )
+
+        if not ranked_candidates:
             raise ValueError(
                 f"Could not locate block for {node['id']}: "
                 f"{node['title']}"
             )
 
-        block_index = candidates[0]
+        ranked_candidates.sort()
+        _, _, block_index = ranked_candidates[0]
         key = (page_index, block_index)
 
         heading_blocks[key] = node
         used_blocks.add(key)
 
     return page_blocks, heading_blocks
-
 
 def main():
     nodes = json.loads(NODES_PATH.read_text(encoding="utf-8"))

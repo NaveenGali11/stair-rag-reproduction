@@ -1636,7 +1636,7 @@
       "Media Attributions"
     ],
     "is_leaf": true,
-    "is_retrieval_leaf": true
+    "is_retrieval_leaf": false
   },
   {
     "id": "whole-child-122",

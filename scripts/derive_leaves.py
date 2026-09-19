@@ -6,6 +6,10 @@ import pymupdf
 pdf_path = Path("data/raw/whole-child.pdf")
 output_path = Path("data/derived/whole-child-toc-nodes.json")
 
+NON_CONTENT_LEAF_TITLES = {
+    "media attributions",
+}
+
 with pymupdf.open(pdf_path) as document:
     raw_toc = document.get_toc(simple=True)
 
@@ -46,6 +50,8 @@ chapter_leaves = [
     node
     for node in leaves
     if node["path"][0].startswith("Chapter ")
+    and node["title"].strip().casefold()
+    not in NON_CONTENT_LEAF_TITLES
 ]
 
 chapter_leaf_ids = {node["id"] for node in chapter_leaves}
