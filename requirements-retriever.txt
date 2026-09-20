@@ -1,4 +1,4 @@
-# SageMaker supplies CUDA-enabled PyTorch,
-# Transformers, and Accelerate.
+# The validated SageMaker image supplied CUDA-enabled PyTorch 2.8.0,
+# Transformers 4.57.6, and Accelerate 1.14.0 through --system-site-packages.
 datasets==2.19.1
 peft==0.17.1

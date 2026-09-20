@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: >-
+  If you use this independent reproduction, cite this repository and the
+  original STAIR paper.
+title: "Independent STAIR reproduction on The Whole Child"
+type: software
+authors:
+  - family-names: Gali
+    given-names: Naveen
+repository-code: "https://github.com/NaveenGali11/stair-rag-reproduction"
+url: "https://github.com/NaveenGali11/stair-rag-reproduction"
+version: 0.1.0
+date-released: 2026-09-20
+license: MIT
+keywords:
+  - information retrieval
+  - retrieval-augmented generation
+  - generative retrieval
+  - document structure
+  - STAIR
+  - DSI
+references:
+  - type: article
+    title: >-
+      STAIR (STructure Aware Information Retriever): A novel dataset and LLM
+      based retriever for document structure augmentation
+    authors:
+      - family-names: Kumar
+        given-names: Vineet
+      - family-names: Pulivarthi
+        given-names: Meghanadh
+      - family-names: Kumar
+        given-names: Vishwajeet
+      - family-names: Sen
+        given-names: Jaydeep
+      - family-names: Bhat
+        given-names: Riyaz Ahmad
+      - family-names: Joshi
+        given-names: Sachindra
+    year: 2026
+    doi: 10.48550/arXiv.2609.03874
+    url: "https://arxiv.org/abs/2609.03874"

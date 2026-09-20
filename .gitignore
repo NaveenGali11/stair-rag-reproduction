@@ -5,6 +5,13 @@ data/raw/
 .venv/
 __pycache__/
 *.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+*.egg-info/
+build/
+dist/
 
 # Large model artifacts
 checkpoints/
