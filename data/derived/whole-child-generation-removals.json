@@ -296,6 +296,14 @@
     "text": "ShareAlike) license"
   },
   {
+    "source_paragraph_id": "whole-child-055-p016",
+    "leaf_id": "whole-child-055",
+    "page_start": 60,
+    "page_end": 60,
+    "reason": "interactive_element_placeholder",
+    "text": "An interactive H5P element has been excluded from this version of the text. You can view it online here:"
+  },
+  {
     "source_paragraph_id": "whole-child-055-p017",
     "leaf_id": "whole-child-055",
     "page_start": 60,
@@ -654,6 +662,14 @@
     "page_end": 110,
     "reason": "media_attribution_tail",
     "text": "SA (Attribution ShareAlike) license"
+  },
+  {
+    "source_paragraph_id": "whole-child-109-p006",
+    "leaf_id": "whole-child-109",
+    "page_start": 113,
+    "page_end": 113,
+    "reason": "interactive_element_placeholder",
+    "text": "One or more interactive elements has been excluded from this version of the text. You can view them"
   },
   {
     "source_paragraph_id": "whole-child-109-p007",

@@ -19,6 +19,14 @@ MAX_LIST_CHARS = 3000
 SHORT_FRAGMENT_CHARS = 40
 SHORT_LABEL_CHARS = 60
 
+INTERACTIVE_ELEMENT_PLACEHOLDER_PATTERN = re.compile(
+    r"^(?:an|one or more)\s+interactive"
+    r"(?:\s+H5P)?\s+elements?\s+has\s+been"
+    r"\s+excluded\s+from\s+this\s+version"
+    r"\s+of\s+the\s+text\.",
+    re.IGNORECASE,
+)
+
 URL_ONLY_PATTERN = re.compile(
     r"^\s*(?:[•◦*-]\s*)?"
     r"(?:(?:online\s+here|url)\s*:\s*)?"
@@ -190,6 +198,8 @@ def remove_noise(group):
 
         if in_attribution_tail:
             reason = "media_attribution_tail"
+        elif INTERACTIVE_ELEMENT_PLACEHOLDER_PATTERN.match(text):
+            reason = "interactive_element_placeholder"
         elif URL_ONLY_PATTERN.fullmatch(text):
             reason = "url_only"
         elif (
