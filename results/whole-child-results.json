@@ -1,0 +1,384 @@
+{
+  "experiment": "Whole Child independent STAIR reproduction",
+  "git_commit": "e42edce3d4f67b2187bd5d5dc69a774c6c0550df",
+  "test_set": {
+    "queries": 1758,
+    "candidate_leaves": 129,
+    "represented_gold_leaves": 86,
+    "grouped_by_source_unit": true
+  },
+  "metrics": {
+    "bm25": {
+      "queries": 1758,
+      "candidates": 129,
+      "evaluated_leaves": 86,
+      "macro_leaf_recall_at_1": 0.7999474043877719,
+      "milliseconds_per_query": 0.37687829749700535,
+      "recall_at_1": 0.7986348122866894,
+      "recall_at_3": 0.9106939704209329,
+      "recall_at_5": 0.9357224118316269,
+      "ndcg_at_3": 0.8647932005038215,
+      "mrr": 0.8599974459279967
+    },
+    "nvembed": {
+      "queries": 1758,
+      "candidates": 129,
+      "evaluated_leaves": 86,
+      "macro_leaf_recall_at_1": 0.7534543916270294,
+      "milliseconds_per_query": 7.539802527872005,
+      "recall_at_1": 0.6552901023890785,
+      "recall_at_3": 0.8270762229806599,
+      "recall_at_5": 0.8697383390216155,
+      "ndcg_at_3": 0.7552592283418689,
+      "mrr": 0.7495710467232771,
+      "peak_gpu_gib": 19.276971340179443
+    },
+    "dsi": {
+      "queries": 1758,
+      "candidates": 129,
+      "evaluated_leaves": 86,
+      "macro_leaf_recall_at_1": 0.3956835269317918,
+      "milliseconds_per_query": 69.38848555915814,
+      "recall_at_1": 0.40102389078498296,
+      "recall_at_3": 0.5227531285551763,
+      "recall_at_5": 0.5830489192263937,
+      "ndcg_at_3": 0.47157045959288363,
+      "mrr_at_5": 0.4678043230944255,
+      "peak_gpu_gib": 16.242202758789062
+    },
+    "stair": {
+      "queries": 1758,
+      "candidates": 129,
+      "evaluated_leaves": 86,
+      "macro_leaf_recall_at_1": 0.32949472091613674,
+      "milliseconds_per_query": 2170.1164645847557,
+      "recall_at_1": 0.37542662116040953,
+      "recall_at_3": 0.4812286689419795,
+      "recall_at_5": 0.49943117178612056,
+      "ndcg_at_3": 0.4373393061331891,
+      "mrr_at_5": 0.4264031095942359,
+      "peak_gpu_gib": 36.92254877090454
+    }
+  },
+  "paired_dsi_vs_stair": {
+    "queries": 1758,
+    "dsi_recall_at_1": 0.40102389078498296,
+    "stair_recall_at_1": 0.37542662116040953,
+    "stair_minus_dsi": -0.025597269624573427,
+    "relative_change": -0.06382978723404267,
+    "outcomes": {
+      "stair_only": 239,
+      "both_wrong": 814,
+      "both_correct": 421,
+      "dsi_only": 284
+    },
+    "mcnemar_exact_two_sided_p": 0.054252450292862,
+    "paired_bootstrap_stair_minus_dsi": {
+      "samples": 10000,
+      "seed": 42,
+      "lower_95": -0.05062571103526735,
+      "median": -0.026166097838452786,
+      "upper_95": 0.0
+    },
+    "by_development_leaf_coverage": {
+      "seen_in_dev": {
+        "queries": 1614,
+        "dsi_recall_at_1": 0.40024783147459725,
+        "stair_recall_at_1": 0.3915737298636927,
+        "stair_minus_dsi": -0.008674101610904586,
+        "combined_correct_at_1": 0.5421313506815365
+      },
+      "absent_from_dev": {
+        "queries": 144,
+        "dsi_recall_at_1": 0.4097222222222222,
+        "stair_recall_at_1": 0.19444444444444445,
+        "stair_minus_dsi": -0.2152777777777778,
+        "combined_correct_at_1": 0.4791666666666667
+      }
+    },
+    "by_hierarchy_depth": {
+      "2": {
+        "queries": 382,
+        "dsi_recall_at_1": 0.28534031413612565,
+        "stair_recall_at_1": 0.5497382198952879,
+        "stair_minus_dsi": 0.2643979057591623,
+        "combined_correct_at_1": 0.5654450261780105
+      },
+      "3": {
+        "queries": 1376,
+        "dsi_recall_at_1": 0.4331395348837209,
+        "stair_recall_at_1": 0.32703488372093026,
+        "stair_minus_dsi": -0.10610465116279069,
+        "combined_correct_at_1": 0.5290697674418605
+      }
+    }
+  },
+  "training": {
+    "dsi_run_config": {
+      "method": "dsi",
+      "model_id": "mistralai/Mistral-7B-Instruct-v0.2",
+      "model_revision": "63a8b081895390a26e140280378bc85ec8bce07a",
+      "seed": 42,
+      "epochs": 5,
+      "learning_rate": 0.0002,
+      "batch_size": 8,
+      "gradient_accumulation": 2,
+      "effective_batch_size": 16,
+      "eval_batch_size": 32,
+      "maximum_length": 512,
+      "lora_rank": 16,
+      "lora_alpha": 32,
+      "lora_dropout": 0.05,
+      "lora_target_modules": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ],
+      "train_examples": 1064,
+      "dev_examples": 392,
+      "early_stopping_metric": "dev_recall_at_1",
+      "patience": 2
+    },
+    "dsi_state": {
+      "completed_epochs": 5,
+      "best_dev_recall_at_1": 0.375,
+      "epochs_without_improvement": 1,
+      "history": [
+        {
+          "epoch": 1,
+          "average_train_loss": 2.1629353721339,
+          "dev_recall_at_1": 0.08163265306122448,
+          "dev_correct": 32,
+          "dev_total": 392,
+          "training_seconds": 42.64253290799934,
+          "dev_evaluation_seconds": 8.433313845000157,
+          "peak_gpu_memory_gib": 14.576188564300537,
+          "learning_rate": 0.00017807308970099669,
+          "improved": true
+        },
+        {
+          "epoch": 2,
+          "average_train_loss": 0.3416761710567582,
+          "dev_recall_at_1": 0.30357142857142855,
+          "dev_correct": 119,
+          "dev_total": 392,
+          "training_seconds": 42.33231318199978,
+          "dev_evaluation_seconds": 8.356572315999074,
+          "peak_gpu_memory_gib": 14.578904628753662,
+          "learning_rate": 0.00013355481727574751,
+          "improved": true
+        },
+        {
+          "epoch": 3,
+          "average_train_loss": 0.11283968345969356,
+          "dev_recall_at_1": 0.3010204081632653,
+          "dev_correct": 118,
+          "dev_total": 392,
+          "training_seconds": 42.55727072799891,
+          "dev_evaluation_seconds": 8.448718245999771,
+          "peak_gpu_memory_gib": 14.574235439300537,
+          "learning_rate": 8.903654485049834e-05,
+          "improved": false
+        },
+        {
+          "epoch": 4,
+          "average_train_loss": 0.033213177976405064,
+          "dev_recall_at_1": 0.375,
+          "dev_correct": 147,
+          "dev_total": 392,
+          "training_seconds": 42.56463781599996,
+          "dev_evaluation_seconds": 8.406509972999629,
+          "peak_gpu_memory_gib": 14.577928066253662,
+          "learning_rate": 4.451827242524917e-05,
+          "improved": true
+        },
+        {
+          "epoch": 5,
+          "average_train_loss": 0.012504085120200127,
+          "dev_recall_at_1": 0.3673469387755102,
+          "dev_correct": 144,
+          "dev_total": 392,
+          "training_seconds": 42.42684896799983,
+          "dev_evaluation_seconds": 8.360980363000635,
+          "peak_gpu_memory_gib": 14.576188564300537,
+          "learning_rate": 0.0,
+          "improved": false
+        }
+      ],
+      "complete": true
+    },
+    "stair_run_config": {
+      "method": "stair",
+      "model_id": "mistralai/Mistral-7B-Instruct-v0.2",
+      "model_revision": "63a8b081895390a26e140280378bc85ec8bce07a",
+      "seed": 42,
+      "epochs": 5,
+      "learning_rate": 0.0002,
+      "batch_size": 1,
+      "gradient_accumulation": 16,
+      "effective_batch_size": 16,
+      "eval_batch_size": 8,
+      "maximum_length": 2048,
+      "lora_rank": 16,
+      "lora_alpha": 32,
+      "lora_dropout": 0.05,
+      "lora_target_modules": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ],
+      "train_examples": 1064,
+      "dev_examples": 392,
+      "early_stopping_metric": "dev_recall_at_1",
+      "patience": 2
+    },
+    "stair_state": {
+      "completed_epochs": 5,
+      "best_dev_recall_at_1": 0.4923469387755102,
+      "epochs_without_improvement": 0,
+      "history": [
+        {
+          "epoch": 1,
+          "average_train_loss": 0.33152472021907686,
+          "dev_recall_at_1": 0.3086734693877551,
+          "dev_correct": 121,
+          "dev_total": 392,
+          "training_seconds": 841.9813817550003,
+          "dev_evaluation_seconds": 195.977851869,
+          "peak_gpu_memory_gib": 15.40451431274414,
+          "learning_rate": 0.00017807308970099669,
+          "improved": true
+        },
+        {
+          "epoch": 2,
+          "average_train_loss": 0.06182977737537847,
+          "dev_recall_at_1": 0.39285714285714285,
+          "dev_correct": 154,
+          "dev_total": 392,
+          "training_seconds": 842.8773643099994,
+          "dev_evaluation_seconds": 198.15984052800013,
+          "peak_gpu_memory_gib": 15.40451431274414,
+          "learning_rate": 0.00013355481727574751,
+          "improved": true
+        },
+        {
+          "epoch": 3,
+          "average_train_loss": 0.02614532076997824,
+          "dev_recall_at_1": 0.4336734693877551,
+          "dev_correct": 170,
+          "dev_total": 392,
+          "training_seconds": 842.9727461900002,
+          "dev_evaluation_seconds": 195.91603544200007,
+          "peak_gpu_memory_gib": 15.40280532836914,
+          "learning_rate": 8.903654485049834e-05,
+          "improved": true
+        },
+        {
+          "epoch": 4,
+          "average_train_loss": 0.009551752229291688,
+          "dev_recall_at_1": 0.45408163265306123,
+          "dev_correct": 178,
+          "dev_total": 392,
+          "training_seconds": 844.4765802869988,
+          "dev_evaluation_seconds": 194.56687023100312,
+          "peak_gpu_memory_gib": 15.40378189086914,
+          "learning_rate": 4.451827242524917e-05,
+          "improved": true
+        },
+        {
+          "epoch": 5,
+          "average_train_loss": 0.002105516246757802,
+          "dev_recall_at_1": 0.4923469387755102,
+          "dev_correct": 193,
+          "dev_total": 392,
+          "training_seconds": 843.4446960679998,
+          "dev_evaluation_seconds": 197.885630863002,
+          "peak_gpu_memory_gib": 15.40280532836914,
+          "learning_rate": 0.0,
+          "improved": true
+        }
+      ],
+      "complete": true
+    }
+  },
+  "artifacts": {
+    "bm25": {
+      "path": "artifacts/results/whole-child-bm25-test.json",
+      "bytes": 3757819,
+      "sha256": "411ceb7a1a1d2d8e459992292c513de8aeab31193893750a5286d1890cf45195"
+    },
+    "nvembed": {
+      "path": "artifacts/results/whole-child-nvembed-v2-test.json",
+      "bytes": 3758160,
+      "sha256": "d3f378807aab4717bb8e060ba1f3f78f2b04ef17bb9dabc2e93658fd51c97516"
+    },
+    "dsi": {
+      "path": "artifacts/results/whole-child-dsi-test.json",
+      "bytes": 2025048,
+      "sha256": "a87a63513069b4d52402d01e35dc6e103286fa45d71ed279375342ac83087526"
+    },
+    "stair": {
+      "path": "artifacts/results/whole-child-stair-test.json",
+      "bytes": 2640808,
+      "sha256": "974c1008f56d8f6ef1f8eabecbd5b20031aa255005fc62cd13802b2e94740264"
+    },
+    "paired_analysis": {
+      "path": "artifacts/results/whole-child-dsi-vs-stair-analysis.json",
+      "bytes": 1323383,
+      "sha256": "541cf3504a626c59ba9916f2c4aa06c8e783d5ee04a4ba89f9ca81dd896df312"
+    },
+    "dsi_config": {
+      "path": "artifacts/models/dsi/best-adapter/adapter_config.json",
+      "bytes": 1050,
+      "sha256": "5402a457c49a5dd30789390d88c4e027b0eaf27c1741aacb443610f5de8335ed"
+    },
+    "dsi_weights": {
+      "path": "artifacts/models/dsi/best-adapter/adapter_model.safetensors",
+      "bytes": 167832240,
+      "sha256": "99a8a9d20b7021c1405a83a9697b34337b2ccf1fefdce6e04521e95c1f6ccaed"
+    },
+    "stair_config": {
+      "path": "artifacts/models/stair/best-adapter/adapter_config.json",
+      "bytes": 1050,
+      "sha256": "8e6948e3861d512321bc33f0f075e5ae126183af7b8b965cef998dc66f4a124b"
+    },
+    "stair_weights": {
+      "path": "artifacts/models/stair/best-adapter/adapter_model.safetensors",
+      "bytes": 167832240,
+      "sha256": "34af1361fbd8fef7483930bf14878cb14f887ba705d16283ce86d06c86d8280e"
+    },
+    "dsi_run_config": {
+      "path": "artifacts/models/dsi/run-config.json",
+      "bytes": 634,
+      "sha256": "27b8c389978dcc62cb0d73f3ebb3020eb4e8b7fd5be4e5c83c017171be3cd006"
+    },
+    "dsi_state": {
+      "path": "artifacts/models/dsi/state.json",
+      "bytes": 2051,
+      "sha256": "c031f5c9f5b27e55352e81c0bbd107939b2c41bb78246d03eb956cb1e7e40f9c"
+    },
+    "stair_run_config": {
+      "path": "artifacts/models/stair/run-config.json",
+      "bytes": 637,
+      "sha256": "1f75b019d21433617eec1551707c871d4dc60c306075a918c0aec058d32e8dce"
+    },
+    "stair_state": {
+      "path": "artifacts/models/stair/state.json",
+      "bytes": 2074,
+      "sha256": "cf1a4485c809c2ec2a3ec77814f2fab1797edd2f9616ee0e3bd9ede48451ed0a"
+    }
+  },
+  "interpretation": {
+    "primary_result": "STAIR did not outperform DSI overall on the frozen test set.",
+    "statistical_result": "The 2.56-point DSI advantage is borderline: exact McNemar p=0.0542525 and the paired-bootstrap 95% interval for STAIR minus DSI is [-0.0506, 0.0000].",
+    "depth_interaction": "STAIR leads by 0.2644 Recall@1 on depth-2 queries and trails by 0.1061 on depth-3 queries."
+  }
+}
