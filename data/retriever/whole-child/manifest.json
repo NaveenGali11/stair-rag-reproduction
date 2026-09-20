@@ -1,0 +1,39 @@
+{
+  "version": "whole-child-retriever-data-v1",
+  "source_nodes_path": "data/derived/whole-child-toc-nodes.json",
+  "source_nodes_sha256": "e565cfe0dff6cc6eb0d9f6b46ba2292abbfc7f3e7dffedc97940b8358916dda1",
+  "source_split_manifest_path": "data/splits/whole-child/manifest.json",
+  "source_split_manifest_sha256": "374ca5bc0a99f963175e3f3562bc0eff9d4785ee247020f3c3838c7adeee1aaf",
+  "toc_path": "data/retriever/whole-child/toc.txt",
+  "toc_sha256": "0600b8d4e0ae51966bcadb03221284644d493e0b5b027401c42a4a8bdcea9d2a",
+  "labels_path": "data/retriever/whole-child/labels.json",
+  "labels_sha256": "15cbaf4738b877799c5782e3a027908c991a1ef30ded6f480050b8efa37e817f",
+  "toc_node_count": 181,
+  "retrieval_leaf_count": 129,
+  "counts": {
+    "train": 1064,
+    "dev": 392,
+    "test": 1758
+  },
+  "targets": {
+    "dsi": "opaque leaf ID",
+    "stair": "unique complete hierarchical path"
+  },
+  "prompt_templates": {
+    "dsi": "Retrieve the relevant document section for the query. Return only its identifier.\n\nQuery: {query}",
+    "stair": "Select the single table-of-contents leaf that best answers the query. Return only its complete hierarchical path exactly as it appears in the table of contents.\n\nTable of Contents:\n{toc}\n\nQuery: {query}"
+  },
+  "maximum_sequence_lengths": {
+    "dsi": 512,
+    "stair": 2048,
+    "generation": 64
+  },
+  "output_sha256": {
+    "data/retriever/whole-child/dsi/train.jsonl": "4e13b1013b7696b440b7793163c23f0bd9b9a8edbbca3033cd51ed2dbc6fc478",
+    "data/retriever/whole-child/stair/train.jsonl": "ab38d1049ef75af1a0a3917fc1ff8591c6c6d10861b43cd2cc1c7fce38b500ae",
+    "data/retriever/whole-child/dsi/dev.jsonl": "bb8aebb6ff17c1c546a0e9e63961de45e3abae19532f700f0f93947c3b0f4af5",
+    "data/retriever/whole-child/stair/dev.jsonl": "b9ed153042a1d27bb93a707d7a8600304c9b2de312091e1b44b7d89966e95338",
+    "data/retriever/whole-child/dsi/test.jsonl": "0e1eab21a21ffe25fb0f38f5f177815ce3f4ebad4919914922a3b5d812bb5fcd",
+    "data/retriever/whole-child/stair/test.jsonl": "8aa5d8f0e201eb3a3371d78c2452e63f346443662a35c3d5a804224bfc794447"
+  }
+}

@@ -13,3 +13,4 @@ checkpoints/
 .venv-mixtral/
 
 artifacts/
+.venv-retriever/

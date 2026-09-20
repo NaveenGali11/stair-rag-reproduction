@@ -1,0 +1,4 @@
+# SageMaker supplies CUDA-enabled PyTorch,
+# Transformers, and Accelerate.
+datasets==2.19.1
+peft==0.17.1
