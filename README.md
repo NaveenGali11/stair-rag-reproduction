@@ -1,13 +1,19 @@
-# Independent STAIR reproduction
+# When document hierarchy helps retrieval—and when it hurts
+
+[![Validate release](https://github.com/NaveenGali11/stair-rag-reproduction/actions/workflows/validate.yml/badge.svg)](https://github.com/NaveenGali11/stair-rag-reproduction/actions/workflows/validate.yml)
+[![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB.svg?logo=python&logoColor=white)](https://www.python.org/)
+[![Code license: MIT](https://img.shields.io/badge/code-MIT-green.svg)](LICENSE)
+[![Derived data: CC BY--NC--SA 4.0](https://img.shields.io/badge/derived%20data-CC%20BY--NC--SA%204.0-orange.svg)](DATA_LICENSE.md)
 
 An auditable, one-book reproduction of **STAIR (STructure Aware Information
-Retriever)**, comparing lexical, dense, and generative retrieval over the
+Retriever)** that compares lexical, dense, and generative retrieval over the
 hierarchy of an open textbook.
 
-> **Headline result:** this experiment did **not** reproduce STAIR's aggregate
-> advantage over DSI. DSI reached 0.4010 Recall@1 and STAIR reached 0.3754.
-> The aggregate hides a strong interaction: STAIR was much better for
-> depth-2 sections and worse for depth-3 leaves.
+> **Three results surprised us.** BM25 was the strongest retriever by a wide
+> margin (`0.7986` Recall@1). STAIR did **not** reproduce an aggregate advantage
+> over a Differentiable Search Index (DSI): `0.3754` versus `0.4010`. But that
+> average conceals the useful finding—STAIR gained `+0.2644` on depth-2
+> sections and lost `-0.1061` on depth-3 leaves.
 
 This is an independent reconstruction of Kumar et al.'s
 [STAIR paper](https://arxiv.org/abs/2609.03874), not the authors' official
@@ -15,6 +21,29 @@ implementation. The paper's original anonymous repository was unavailable
 during this work.
 
 ![Recall comparison](reports/figures/retriever-recall.png)
+
+## Why this matters
+
+Document structure is useful, but it is not a free accuracy boost. In this
+experiment, hierarchy helped when the target was shallow and well represented
+in development data; longer paths and unseen development labels made the
+generative task substantially harder. The result suggests that future
+structure-aware retrievers should separate the value of ToC context from the
+difficulty of generating a complete path—and should still earn their place
+against a strong lexical baseline.
+
+The repository includes the complete tracked dataset, leakage-safe splits,
+training inputs, frozen metrics, an executed notebook, and every script needed
+to inspect or rerun the experiment. A clone can validate the scientific record
+without downloading a model:
+
+```bash
+git clone https://github.com/NaveenGali11/stair-rag-reproduction.git
+cd stair-rag-reproduction
+python3 scripts/validate_repository.py
+```
+
+Expected final line: `Repository validation passed`.
 
 ## Results
 
@@ -56,7 +85,7 @@ arbitrary fixed-size chunk.
 |---|---|---|---|
 | BM25 | Query | Lexical index over leaf text | Ranked leaf IDs |
 | NV-Embed-v2 | Query | Dense similarity over leaf embeddings | Ranked leaf IDs |
-| DSI | Query | Fine-tuned Mistral-7B | Opaque leaf ID |
+| DSI (Differentiable Search Index) | Query | Fine-tuned Mistral-7B | Opaque leaf ID |
 | STAIR | Complete ToC + query | Fine-tuned Mistral-7B | Canonical ToC path |
 
 DSI and STAIR use the same base model, LoRA configuration, supervision,
@@ -65,11 +94,27 @@ their input and target representation: this reproduces the end-to-end systems
 described in the paper, but it does **not** isolate ToC input from path-output
 difficulty. A two-by-two ablation is the natural follow-up.
 
+For one real test query, the two generative formulations look like this:
+
+| Field | Example |
+|---|---|
+| Query | What organization defines key periods of child development from infancy to young adulthood? |
+| Gold leaf | `Periods of Development` |
+| DSI target | `whole-child-009` |
+| STAIR target | `Chapter One: Perspectives on Early Childhood > Childhood Defined > Periods of Development` |
+
+DSI emits a short opaque identifier. STAIR receives the complete ToC and must
+generate the exact hierarchical path. That distinction is useful, but also
+means this experiment compares two end-to-end systems rather than isolating a
+single hierarchy variable.
+
 ## Corpus and supervision
 
 The experiment uses *The Whole Child: Development in the Early Years* by
 Deirdre Budzyna and Doris Buckley, published by ROTEL under
-CC BY-NC-SA 4.0.
+CC BY-NC-SA 4.0. It was selected because its publisher PDF is openly licensed
+and exposes a meaningful native Table of Contents; it is a focused case study,
+not a representative sample of all document hierarchies.
 
 - 183-page publisher PDF; SHA-256
   `14c95ceb029cafaf98f9f2c67e3b73baa8177b53ca3198519c3a2ec19c547d75`
@@ -103,6 +148,19 @@ live under ignored `artifacts/` paths. They are intentionally not committed.
 The frozen result manifest records their expected hashes.
 
 ## Quick start
+
+Choose the smallest path that answers your question:
+
+| Goal | What you need | Start here |
+|---|---|---|
+| Audit the published result | Python 3; no installation or model download | `python3 scripts/validate_repository.py` |
+| Re-run BM25 and the figures | Any ordinary CPU environment | `make setup-core && make evaluate-bm25 && make report` |
+| Retrain DSI and STAIR | Linux, CUDA, pinned Mistral checkpoint, high-memory GPU | Start at retriever setup in [REPRODUCING.md](docs/REPRODUCING.md#6-create-the-retriever-environment-and-data) |
+| Rebuild from the source PDF | Linux, L40S-class GPU, about 80 GB free disk, three model snapshots | Follow [the full staged guide](docs/REPRODUCING.md#level-3-full-reproduction) |
+
+The retriever-ready train/dev/test records are committed. Researchers who only
+want to train or evaluate DSI and STAIR can skip PDF extraction and Mixtral
+question generation entirely.
 
 ### 1. Inspect the frozen result
 
