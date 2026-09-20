@@ -1,0 +1,47 @@
+{
+  "algorithm_version": "grouped-leaf-aware-v1",
+  "seed": 42,
+  "group_key": "source_unit_id",
+  "source_questions_path": "artifacts/generated/whole-child-mixtral-questions.jsonl",
+  "source_questions_sha256": "6cbca2a37aff2af9cfcd0c027f7bf2186b3a6911170f7bbd11be8becd95e4b7d",
+  "source_units_path": "data/derived/whole-child-generation-units.json",
+  "source_units_sha256": "abe4bc68e8b07cb1cadd39e50b7252b323b9fc49ae95c0c4bbbca71038d835e8",
+  "paper_reference_counts": {
+    "train": 1056,
+    "dev": 388,
+    "test": 1746
+  },
+  "target_question_counts": {
+    "train": 1064,
+    "dev": 391,
+    "test": 1759
+  },
+  "actual_question_counts": {
+    "train": 1064,
+    "dev": 392,
+    "test": 1758
+  },
+  "actual_unit_counts": {
+    "train": 171,
+    "dev": 88,
+    "test": 296
+  },
+  "leaf_coverage": {
+    "train": 129,
+    "dev": 66,
+    "test": 86
+  },
+  "split_sha256": {
+    "train": "c432cb79aeaf5c70a686944475bfe01f94c6ded3bc183b38130d76c0749b03bb",
+    "dev": "b713e66b12e6bcfa7e3f2f51305e1c1798cc7ee0bd3e44a3c411f4972d4b266c",
+    "test": "4a98d7764c9835a90d1483f82d2b80212b91ed2ad1c4aacf00c07e12de097187"
+  },
+  "total_questions": 3214,
+  "total_units": 555,
+  "total_leaves": 129,
+  "constraints": {
+    "all_questions_from_unit_share_split": true,
+    "all_leaves_represented_in_train": true,
+    "deterministic_repairs_train_only": true
+  }
+}
